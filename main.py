@@ -54,7 +54,7 @@ def PnL(filtered_df_1, df_2, execution_lapse=40):
 
 
 if __name__ == '__main__': 
-    Tables = Data('4708263_FGA0ZWBR.csv', '4708263_QB3Z8L4T.csv')
+    Tables = Data('name_file_1.csv', 'name_file_2.csv')
     print('The PnL of the initial algorithm is {}'.format(PnL(Tables.filtered_stock_1, Tables.stock_2)))
     
     ### Variation: 
